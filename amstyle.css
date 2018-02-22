@@ -1,0 +1,88 @@
+.navbar {
+    list-style: none;
+    padding: 5px;
+    border: 4px solid #000000;
+        border-radius: 4px;
+    margin: 5px;
+    overflow: auto;
+    background-color: #333333;
+    display: flex;   
+        justify-content: space-around;
+    position: fixed;
+        top: 10px;
+        width: 100%;
+    font-family: 'Prosto One', cursive;
+
+}
+li a {
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    background-color: #f3f3f3;
+    color: red;
+}
+a.active {
+    background-color: lightgreen;
+    color: black
+}
+a:hover {
+    background-color: #333;
+    color: #f3f3f3;
+}
+
+h1 {
+    display: flex;
+    background-color: #adadad;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+body {
+    background-color: #40B8FF;
+    text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+    
+
+}
+table {
+    width: 75%;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 30px;
+}
+th {
+    height: 40px;
+    border-bottom: 3px solid black;
+}
+td {
+    padding: 5px;
+    width: 50%;
+}
+td.dis {
+    border-left: 3px solid black;
+}
+.other {
+    margin-top: 10px;
+    border: 3px solid #333;
+}
+p {
+    display: block;
+    margin-top: 30px;
+
+}
+.ft {
+    border-top:  3px solid #333
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #333333;
+    color: #f3f3f3;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
